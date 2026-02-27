@@ -114,6 +114,7 @@ PACMAN_PKGS=(
     networkmanager              # network management daemon
     bash-completion             # tab completion for bash
     brightnessctl               # screen brightness
+    wdisplays                   # display settings
 )
 
 # AUR packages — niri itself is not yet in the official repos
