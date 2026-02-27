@@ -113,6 +113,7 @@ PACMAN_PKGS=(
     wireplumber                 # pipewire session/policy manager
     networkmanager              # network management daemon
     bash-completion             # tab completion for bash
+    brightnessctl               # screen brightness
 )
 
 # AUR packages — niri itself is not yet in the official repos
