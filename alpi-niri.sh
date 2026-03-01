@@ -115,6 +115,7 @@ PACMAN_PKGS=(
     bash-completion             # tab completion for bash
     brightnessctl               # screen brightness
     wdisplays                   # display settings
+    xwayland-satellite          # run x apps
 )
 
 # AUR packages — niri itself is not yet in the official repos
