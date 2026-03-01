@@ -587,8 +587,8 @@ if [ -z "$DISPLAY" ] && [ -z "$WAYLAND_DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ];
     echo "  ┌──────────────────────────────────────────┐"
     echo "  │         NIRUCON — niri session           │"
     echo "  ├──────────────────────────────────────────┤"
-    echo "  │   1)  niri  ·  Wayland (waybar + foot)  │"
-    echo "  │   2)  exit  ·  Shell prompt only         │"
+    echo "  │   1)  niri  ·  wayland                   │"
+    echo "  │   2)  exit  ·  shell prompt only         │"
     echo "  └──────────────────────────────────────────┘"
     echo ""
     read -r -p "  Session [1/2, Enter = niri]: " _niru_ses
