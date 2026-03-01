@@ -484,6 +484,11 @@ deploy_configs() {
         warn "repo/local/bin not found — skipping local/bin deploy"
     fi
 
+    # Ensure waybar scripts are executable
+    if [[ -d "$repo/waybar/scripts" ]]; then
+        [[ $DRY_RUN -eq 0 ]] && find "$repo/waybar/scripts" -type f -name "*.sh" -exec chmod +x {} \;
+    fi
+
     ok "Configs deployed"
 }
 
